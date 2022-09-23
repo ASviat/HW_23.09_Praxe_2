@@ -11,4 +11,4 @@ if (isIt000(num))
     num=num%100/10;
     Console.WriteLine($"Второе число: {num}.");
 }
-else Console.WriteLine("Трехначное число, камрад.");
+else Console.WriteLine("Трехзначное число, камрад.");
