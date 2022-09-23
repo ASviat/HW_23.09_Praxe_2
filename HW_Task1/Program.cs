@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите трехначное число: ");
+﻿Console.WriteLine("Введите трехзначное число: ");
 int num=Convert.ToInt32(Console.ReadLine());
 
 bool isIt000(int number)
