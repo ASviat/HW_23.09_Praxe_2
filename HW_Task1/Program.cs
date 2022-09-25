@@ -3,7 +3,7 @@ int num=Convert.ToInt32(Console.ReadLine());
 
 bool isIt000(int number)
 {
-    return number>99 && number < 10000;
+    return number>99 && number <= 1000;
 }
 
 if (isIt000(num))
