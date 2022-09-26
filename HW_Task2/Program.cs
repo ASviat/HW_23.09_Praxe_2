@@ -18,3 +18,8 @@ if (num >=10000 && num<100000)
     num=num/100%10;
     Console.WriteLine($"Число {num} является третьим");
 }
+// if (num < 100) Console.WriteLine("Третьей цифры нет");
+// else while
+// {
+
+// }
