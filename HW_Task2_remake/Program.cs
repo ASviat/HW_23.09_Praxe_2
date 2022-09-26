@@ -1,5 +1,4 @@
-﻿
-Console.WriteLine("Введите число: ");
+﻿Console.WriteLine("Введите число: ");
 int num=Convert.ToInt32(Console.ReadLine());
 int count = -3;
 int copy=num;
@@ -11,7 +10,6 @@ copy=copy/10;
 count++;
 }
 
-Console.WriteLine($"{count} ");
 int magic=1;
 
 while (count>0)
@@ -20,7 +18,6 @@ while (count>0)
 magic=magic*10;
 count--;
 }
-Console.WriteLine($"{count} ");
 
 num=num/magic%10;
 
